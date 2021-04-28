@@ -17,3 +17,4 @@ let mySprite = sprites.create(img`
     4 4 4 4 . . . . . . . . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
+mySprite.setVelocity(50, 50)
