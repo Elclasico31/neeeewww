@@ -18,3 +18,4 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
 mySprite.setVelocity(50, 50)
+scene.setBackgroundColor(0)
